@@ -8,4 +8,3 @@ Bagging: Unlike boosting, bagging randomly samples the data to get sub-samples a
 With this technique, each model is often an overfitted, deep decision tree with low bias and high variance. Random forest is a type of ensemble learning using bagging with a twist. Random forest not only samples the data to get sub-samples to train the individual trees but also samples a subset of the features to be used for each decision tree. This ensures that each model is independent, uncorrelated, and focusing on only certain aspect of the data.
 
 Stacking: Similar to bagging, stacking trains independent models in parallel where each model has weak bias and high variance. However, unlike bagging, each model is trained on the full dataset and the base models do not have to be decision trees.                              Scikit learn ecosystem was used. 
-Codes are being attached as a link of google drive folder
